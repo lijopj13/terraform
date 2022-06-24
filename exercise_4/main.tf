@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
    backend "s3" {
-   bucket = "rc-tf-remote-state-bucket"
+   bucket = "lijo-remote-statefile-tf"
    key = "terraform.tfstate"
    region = "us-east-1"
   }
